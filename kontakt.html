@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Druk 3D</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="kontakt.html" class="active">Kontakt</a>
+    </nav>
+</header>
+
+<main>
+    <h1>Kontakt</h1>
+
+    <form id="form">
+        <label>Email:</label><br>
+        <input type="email" placeholder="Twój email" required><br><br>
+
+        <label>Temat:</label><br>
+        <select>
+            <option>Zapytanie ofertowe</option>
+            <option>Pomoc techniczna</option>
+            <option>Inne</option>
+        </select><br><br>
+
+        <label>Wiadomość:</label><br>
+        <textarea placeholder="Twoja wiadomość" required></textarea><br><br>
+
+        <button type="submit">Wyślij</button>
+    </form>
+</main>
+
+<footer>
+    <p class="center-text">© <span id="year"></span> Kamil Nowak</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

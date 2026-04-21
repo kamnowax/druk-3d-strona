@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - Druk 3D</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="galeria.html" class="active">Galeria</a>
+        <a href="kontakt.html">Kontakt</a>
+    </nav>
+</header>
+
+<main>
+    <h1>Drukarki 3D</h1>
+
+    <div class="gallery">
+
+        <div class="card">
+            <img src="images/bambulab.jpg">
+            <p>Bambu Lab X1 Carbon</p>
+        </div>
+
+        <div class="card">
+            <img src="images/creality.jpg">
+            <p>Creality K1 Max</p>
+        </div>
+
+        <div class="card">
+            <img src="images/prusa.jpg">
+            <p>Prusa MK4</p>
+        </div>
+
+        <div class="card">
+            <img src="images/anycubic.jpg">
+            <p>Anycubic Kobra</p>
+        </div>
+        <div id="lightbox" class="lightbox">
+            <img id="lightbox-img">
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p class="center-text">© <span id="year"></span> Kamil Nowak</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
