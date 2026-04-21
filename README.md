@@ -16,7 +16,7 @@ Prosta strona internetowa stworzona w HTML, CSS i JavaScript jako projekt zalicz
 - JavaScript
 
 ## 📂 Struktura projektu
-- index.html – strona główna i prosty film opisujćcy technologie
+- index.html – strona główna i prosty film opisujący technologie
 - galeria.html – galeria zdjęć 
 - kontakt.html – formularz
 - style.css – stylowanie
